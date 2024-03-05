@@ -1,0 +1,56 @@
+body {
+  min-height: 100vh;
+  display: flex; /*Centers Items*/
+  justify-content: center;
+  align-items: center;
+}
+
+.summaryContainer {
+  height: auto;
+  width: 700px;
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+}
+
+.reaction img,
+.reaction pre,
+.memory img,
+.memory pre,
+.verbal img,
+.verbal pre,
+.visual img,
+.visual pre {
+  display: inline-block;
+}
+
+.reaction pre,
+.memory pre,
+.verbal pre,
+.visual pre {
+  position: relative;
+  bottom: 5px;
+  left: 10px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 500;
+}
+
+.reaction,
+.memory,
+.verbal,
+.visual {
+  margin: 10px;
+  width: 300px;
+}
+
+.reaction {
+  background-color: hsl(6, 100%, 98%);
+}
+
+.memory {
+  background-color: hsl(42, 100%, 97%);
+}
+
+.verbal {
+  background-color: hsl(173, 53%, 97%);
+}
