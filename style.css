@@ -128,7 +128,7 @@ body {
 
 @media screen and (max-width: 700px) {
   .summaryContainer {
-    height: 565px;
+    height: 600px;
     width: 280px;
     display: flex;
     flex-direction: column;
@@ -199,5 +199,6 @@ body {
   .summaryContainer button {
     position: relative;
     left: 5px;
+    top: 15px;
   }
 }
