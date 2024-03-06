@@ -125,3 +125,79 @@ body {
 .summaryContainer button:hover {
   background-color: hsla(256, 72%, 46%, 1);
 }
+
+@media screen and (max-width: 700px) {
+  .summaryContainer {
+    height: 565px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /*Blurry Modern Shadow*/
+    border-radius: 30px;
+  }
+
+  .summaryScore {
+    position: relative;
+    left: 50px;
+  }
+
+  .summaryScore img {
+    height: 300px;
+    width: 200px;
+    position: relative;
+    right: 10px;
+  }
+
+  .summaryDetails {
+    position: relative;
+    left: 10px;
+    bottom: 25px;
+  }
+
+  .summaryDetails h2 {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
+    font-size: 1.2rem;
+  }
+
+  .reaction strong,
+  .memory strong,
+  .verbal strong,
+  .visual strong {
+    color: hsl(229, 17%, 25%);
+    font-size: 0.8rem;
+  }
+
+  .reaction pre {
+    color: hsl(0, 100%, 67%);
+    font-size: 0.5rem;
+  }
+
+  .memory pre {
+    color: hsl(39, 100%, 56%);
+    font-size: 0.5rem;
+  }
+
+  .verbal pre {
+    color: hsl(166, 100%, 37%);
+    font-size: 0.5rem;
+  }
+
+  .visual pre {
+    color: hsl(234, 85%, 45%);
+    font-size: 0.5rem;
+  }
+
+  .reaction,
+  .memory,
+  .verbal,
+  .visual {
+    width: 250px;
+  }
+
+  .summaryContainer button {
+    position: relative;
+    left: 5px;
+  }
+}
